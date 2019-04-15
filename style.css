@@ -1,0 +1,250 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 220vh;
+    overflow-x: hidden;
+    overflow-y: hi
+}
+
+header {
+    background-color: gainsboro;
+    box-shadow: 10px 4px 12px 0px black;
+    height: 67px;
+    padding-top: 3px;
+}
+
+.location {
+    position: absolute;
+    margin-left: 30px;
+    width: 227px;
+    height: 46px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 15px;
+    padding-left: 62px;
+    color: black;
+    cursor: pointer;
+    border: 10px;
+}
+
+.locationpic {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    right: 195px;
+    top: 27px;
+}
+
+.moresearch {
+    margin-left: 30px;
+    width: 563px;
+    height: 46px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 15px;
+    padding-left: 5px;
+    color: black;
+    cursor: pointer;
+    border: 10px;
+    text-transform: uppercase;
+}
+
+.searchpic {
+    position: absolute;
+    background-color: blue;
+    border: 1px;
+    height: 47px;
+    width: 50px;
+    right: 24px;
+    top: 15px;
+    padding-top: 11px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.icons {
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+}
+
+.icon1 {
+    width: 70px;
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.icon1:hover {
+    box-shadow: 3px 3px 5px black;
+}
+
+.sellbox {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    border: 1px;
+    height: 47px;
+    width: 75px;
+    right: 24px;
+    top: 15px;
+    padding-top: 11px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.downpic {
+    position: absolute;
+    left: 2px;
+    top: inherit;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul li {
+    padding-left: 43px;
+    margin-right: 35px;
+}
+
+.category {
+    position: relative;
+    top: 22px;
+    left: 39px;
+    font-family: -webkit-body;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.category:hover {
+    font-weight: bold;
+}
+
+nav {
+    clear: both;
+}
+
+.laptop1 {
+    height: 439px;
+    margin-left: -50px;
+    -webkit-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.laptop1:hover {
+    box-shadow: 3px 3px 5px black;
+}
+
+.lapis {
+    height: 150px;
+    position: relative;
+    padding-left: 13px;
+    top: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.lapis:hover {
+    box-shadow: 3px 3px 5px black;
+}
+
+.price {
+    border-style: ridge;
+    border-color: darkgray;
+    height: 200px;
+    width: 479px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.embed {
+    border-style: ridge;
+    border-color: darkgray;
+    height: 300px;
+    width: 479px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.locationdesciption {
+    font-size: 10px;
+}
+
+.detailslist {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.detailslist:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modeldetails {
+    font-size: 12px
+}
+
+.lightfooter {
+    height: 22vh;
+    background-color: gainsboro;
+    padding-top: 10px;
+}
+
+.List {
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+}
+
+.List:hover {
+    font-weight: bold;
+}
+
+.fb:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.insta:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.tweet:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.play:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.foooter {
+    height: 6vh;
+    background-color: darkcyan;
+}
+
+.anchor {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.last {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
